@@ -1,0 +1,87 @@
+body{
+  background-image: url(https://avatars.mds.yandex.net/i?id=1cd6874b35c488a6655436cceca90672_l-4969866-images-thumbs&n=13);
+}
+
+main {
+  margin-top: 60px;
+}
+aside ul img {
+  width: 50px;
+  height: 50px;
+}
+aside ul {
+  margin-left: 40px;
+}
+aside a {
+  text-decoration: none;
+  color: rgba(147, 148, 150, 0.8);
+  font-size: 35px;
+  backdrop-filter: blur(4px) saturate(129%);
+  -webkit-backdrop-filter: blur(4px) saturate(129%);
+  background-color: rgba(45, 25, 25, 0.64);
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  padding: 35px;
+  border-radius: 50px;
+}
+aside li {
+  margin-bottom: 90px;
+  transition: all 0.6s;
+  width: fit-content;
+  flex-wrap: wrap;
+}
+aside li:hover {
+  scale: 1.038;
+}
+article img {
+  width: 150px;
+  height: 250px;
+  object-fit: cover;
+  position: absolute;
+  top: 300px;
+  left: 1000px;
+  animation: books 0.8s infinite;
+  border-radius: 20px;
+}
+.card-2 img {
+  top: 450px;
+  left: 1225px;
+}
+.card-3 img {
+  top: 300px;
+  left: 1450px;
+}
+.card-4 img {
+  top: 600px;
+  left: 1000px;
+}
+.card-5 img {
+  top: 750px;
+  left: 1225px;
+}
+.card-6 img {
+  top: 600px;
+  left: 1450px;
+}
+.card-7 img {
+  top: 900px;
+  left: 1000px;
+}
+.card-8 img {
+  top: 1050px;
+  left: 1225px;
+}
+.card-9 img {
+  top: 900px;
+  left: 14  50px;
+}
+@keyframes books {
+  0% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(-10deg);
+  }
+}
